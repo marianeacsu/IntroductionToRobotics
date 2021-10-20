@@ -1,0 +1,6 @@
+1.  Install arduino IDE: https://www.arduino.cc/en/software
+2.  Create apublicGithub repository, according to these specifications:
+    •You can use  this as  an example  (will be updated as  we  homeworkprogresses):  https://github.com/Irikos/IntroductionToRobotics
+    •Repository must be name ”IntroductionToRobotics” (or somethingvery similar, but with a good reason)
+    •Must include similar Readme.md with title,  initial description andsubsesction for each homework (with specified details)
+    •You are free (and encouraged) to be creative with your repository de-scription.However, the freedom of creativity must not be confusedwith and excuse to be lazy. The requirements specified here and inthe repository description are considered basic and must be met.
