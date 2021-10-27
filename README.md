@@ -5,7 +5,7 @@
 
 #### 1. Components
 
-RBG led (1 minimum), potentiometers (3 minimum), resistors and wires (per logic)
+RBG led (1 minimum), potentiometers (3 minimum), 3 resistors and wires (per logic)
 
 #### 2.Task Requirements
 
@@ -15,12 +15,11 @@ RBG led (1 minimum), potentiometers (3 minimum), resistors and wires (per logic)
 
 #### 3.Picture of the setup
 
-![rgbfoto](https://user-images.githubusercontent.com/58784210/138951953-d30e55f6-c280-4114-9c62-aad667f55486.jpeg)
-
+![rgb resistors foto](https://user-images.githubusercontent.com/58784210/139128684-a29bb2c6-57e0-4284-a07e-b6df601194fd.jpeg)
 
 #### 4.Video 
 
-https://www.youtube.com/watch?v=FESxoLBx5t0
+https://www.youtube.com/watch?v=pqcDeQspXZg
 
 
 #### [5.Code](https://github.com/marianeacsu/IntroductionToRobotics/blob/main/hw2/try.ino)
