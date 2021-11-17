@@ -1,5 +1,4 @@
 # IntroductionToRobotics
-## Labs
 ### [Homework 0](https://github.com/marianeacsu/IntroductionToRobotics/tree/main/Lab1)
 ### [Homework 1](https://github.com/marianeacsu/IntroductionToRobotics/tree/main/hw2)
 
@@ -23,5 +22,19 @@ https://www.youtube.com/watch?v=pqcDeQspXZg
 
 
 #### [5.Code](https://github.com/marianeacsu/IntroductionToRobotics/blob/main/hw2/try.ino)
+
+### Homework 4
+
+#### 1.Components
+
+A joystick, a 4 digit 7-segment display, a 74hc595 shift register
+
+#### 2.Task Requirements
+
+First state:
+- you can use a joystick axis to cycle through the 4digits; using the other axis does nothing. A blinking decimal point shows the current digit position. When pressing the button (must use interruptfor maximum points!), you lock in on the selected digit and enter thesecond state
+
+Second state:
+- the decimal point stays always on, no longer blinking and you can no longer use the axis to cycle through the 4 digits. Instead, using the other axis, you can increment on decrement the number on the current digit. Pressing the button again returns you to the previous state. For bonus, save the last value in eeprom and load it when starting arduino. Also, keep in mind that when changing the number, you must increment it for each joystick movement-it should not work continuosly increment if you keep the joystick in one position.
 
 
