@@ -1,6 +1,3 @@
-// Define Connections to 74HC595
-
-//joystick 
 int pinX = A4;
 int pinY = A5;
 int pinSW = 2;
