@@ -37,4 +37,14 @@ First state:
 Second state:
 - the decimal point stays always on, no longer blinking and you can no longer use the axis to cycle through the 4 digits. Instead, using the other axis, you can increment on decrement the number on the current digit. Pressing the button again returns you to the previous state. For bonus, save the last value in eeprom and load it when starting arduino. Also, keep in mind that when changing the number, you must increment it for each joystick movement-it should not work continuosly increment if you keep the joystick in one position.
 
+#### 3.Picture of the setup
+
+![tema4](![WhatsApp Image 2021-11-17 at 20 03 16](https://user-images.githubusercontent.com/58784210/142263466-168764a2-6da4-4789-b06e-9eff903f62a7.jpeg)
+
+#### 4.Video
+
+https://www.youtube.com/watch?v=5bbYXtheYTQ
+
+#### [5.Code]
+
 
