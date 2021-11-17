@@ -45,6 +45,6 @@ Second state:
 
 https://www.youtube.com/watch?v=5bbYXtheYTQ
 
-#### [5.Code] (https://github.com/marianeacsu/IntroductionToRobotics/blob/main/hw4/hw4.ino)
+#### [5.Code](https://github.com/marianeacsu/IntroductionToRobotics/blob/main/hw4/hw4.ino)
 
 
