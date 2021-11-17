@@ -39,7 +39,7 @@ Second state:
 
 #### 3.Picture of the setup
 
-![tema4](![WhatsApp Image 2021-11-17 at 20 03 16](https://user-images.githubusercontent.com/58784210/142263466-168764a2-6da4-4789-b06e-9eff903f62a7.jpeg)
+(![WhatsApp Image 2021-11-17 at 20 03 16](https://user-images.githubusercontent.com/58784210/142263466-168764a2-6da4-4789-b06e-9eff903f62a7.jpeg)
 
 #### 4.Video
 
