@@ -23,7 +23,7 @@ https://www.youtube.com/watch?v=pqcDeQspXZg
 
 #### [5.Code](https://github.com/marianeacsu/IntroductionToRobotics/blob/main/hw2/try.ino)
 
-### [Homework 2]
+### [Homework 2](https://github.com/marianeacsu/IntroductionToRobotics/tree/main/Crosswalk%20simulator:%20traffi)
 
 #### 1. Components
 
@@ -57,7 +57,7 @@ State 4(initiated after state 3 ends):
 
 https://www.youtube.com/watch?v=qpg_JbmJouc
 
-#### [5. Code]
+#### [5. Code](https://github.com/marianeacsu/IntroductionToRobotics/blob/main/Crosswalk%20simulator:%20traffi/hw2.ino)
 
 
 ### [Homework 4](https://github.com/marianeacsu/IntroductionToRobotics/tree/main/hw4)
