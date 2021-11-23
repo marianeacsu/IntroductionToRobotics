@@ -33,55 +33,6 @@ void setup() {
 
 }
 
-void state1() {
-  ledStateCarGreen = HIGH;
-  ledStateCarYellow = LOW; 
-  ledStateCarRed = LOW;
-  ledStatePersonGreen = LOW; 
-  ledStatePersonRed = HIGH;
-  showLeds();
-}
-
-void state2() {
-  buttonPressState1 = millis();
-  while(millis() - buttonPressState1 < waitState1toState2){
-    
-  }
-  delay(2000);
-  ledStateCarGreen = LOW; 
-  ledStateCarYellow = HIGH;
-  showLeds();
-  delay(3000);
-}
-
-void state3() {
-  
-  ledStateCarYellow = LOW; 
-  ledStateCarRed = HIGH;
-  ledStatePersonRed = LOW; 
-  ledStatePersonGreen = HIGH;
-  showLeds();
-  for (int i = 1; i <= 3; i++) {
-    tone(buzzPin, buzzTone);
-    delay(1200);
-    noTone(buzzPin);
-    delay(1200);
-  }
-}
-
-void state4() {
-  for (int i = 1; i <= 5; i++) {
-    ledStatePersonGreen = HIGH; 
-    showLeds(); 
-    tone(buzzPin, buzzTone);
-    delay(250);
-    ledStatePersonGreen = LOW; 
-    showLeds(); 
-    noTone(buzzPin);
-    delay(250); 
-  }
-}
-
 bool reading = HIGH;
 bool previousReading = HIGH;
 unsigned long lastDebounceTime = 0;
@@ -97,10 +48,52 @@ void loop() {
     buttonState = reading;
     if(buttonState == HIGH){
       //ledState =! ledState;
-      state2();
-      state3();
-      state4();
-      state1();
+      buttonPressState1 = millis();
+      while(millis() - buttonPressState1 < waitState1toState2){
+    
+      }
+      delay(2000);
+      ledStateCarGreen = LOW; 
+      ledStateCarYellow = HIGH;
+      ledStateCarRed = LOW;
+      ledStatePersonRed = HIGH;
+      ledStatePersonGreen = LOW;
+      showLeds();
+      delay(3000);
+      ledStateCarYellow = LOW; 
+      ledStateCarRed = HIGH;
+      ledStateCarGreen = LOW;
+      ledStatePersonRed = LOW; 
+      ledStatePersonGreen = HIGH;
+      showLeds();
+      for (int i = 1; i <= 3; i++) {
+         tone(buzzPin, buzzTone);
+         delay(1200);
+         noTone(buzzPin);
+         delay(1200);
+      }
+      ledStateCarYellow = LOW; 
+      ledStateCarRed = HIGH;
+      ledStateCarGreen = LOW;
+      ledStatePersonRed = LOW; 
+      ledStatePersonGreen = HIGH;
+      for (int i = 1; i <= 5; i++) {
+         ledStatePersonGreen = HIGH; 
+         showLeds(); 
+         tone(buzzPin, buzzTone);
+         delay(250);
+         ledStatePersonGreen = LOW; 
+         showLeds(); 
+         noTone(buzzPin);
+         delay(250); 
+     }
+     ledStateCarGreen = HIGH;
+     ledStateCarYellow = LOW; 
+     ledStateCarRed = LOW;
+     ledStatePersonGreen = LOW; 
+     ledStatePersonRed = HIGH;
+     showLeds();
+
     }
   }
  }
