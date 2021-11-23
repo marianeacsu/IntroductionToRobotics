@@ -23,6 +23,43 @@ https://www.youtube.com/watch?v=pqcDeQspXZg
 
 #### [5.Code](https://github.com/marianeacsu/IntroductionToRobotics/blob/main/hw2/try.ino)
 
+### [Homework 2]
+
+#### 1. Components
+
+ 5 LEDs, 1 button, 1 buzzer, resistors and wires (per logic)
+ 
+#### 2. Task Requirements
+
+Building the traffic lights for a crosswalk.You will use 2 LEDs to represent the traffic lights for people (red and green) and 3 LEDs to represent the traffic lights for cars (red, yellow and green). See the states it needs to go through: 
+
+State 1(default, reinstated after state 4 ends): 
+- green light for cars, red  light for people, no sounds   
+- duration: indefinite, changed by pressing the button
+
+State 2(initiated by counting down 10 seconds after a button press):
+- the light should be yellow for cars, red for people and no sounds
+- duration: 3 seconds
+
+State 3(initiated after state 2 ends): 
+- red for cars, green for people and a beeping sound from the buzzer at a constant interval  
+- duration: 10 seconds
+
+State 4(initiated after state 3 ends):
+- red for cars, blinking green for people and a beeping sound from the buzzer, at a constant interval, faster than the beeping in state 3  
+- This state should last 5 seconds
+
+#### 3. Picture of the setup
+
+![hw2](https://user-images.githubusercontent.com/58784210/143010832-551d45e0-bd72-42ae-9e66-19d622f3793a.jpeg)
+
+#### 4. Video
+
+https://www.youtube.com/watch?v=qpg_JbmJouc
+
+#### [5. Code]
+
+
 ### [Homework 4](https://github.com/marianeacsu/IntroductionToRobotics/tree/main/hw4)
 
 #### 1.Components
