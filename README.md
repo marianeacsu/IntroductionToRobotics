@@ -1,5 +1,6 @@
 # IntroductionToRobotics
 ### [Homework 0](https://github.com/marianeacsu/IntroductionToRobotics/tree/main/Lab1)
+
 ### [Homework 1](https://github.com/marianeacsu/IntroductionToRobotics/tree/main/hw2)
 
 #### 1. Components
@@ -58,6 +59,29 @@ State 4(initiated after state 3 ends):
 https://www.youtube.com/watch?v=qpg_JbmJouc
 
 #### [5. Code](https://github.com/marianeacsu/IntroductionToRobotics/blob/main/Crosswalk%20simulator:%20traffi/hw2.ino)
+
+
+### [Homework 3]
+
+#### 1. Components
+
+A buzzer, a 7-segment display, resistors and wires (per logic)
+
+#### 2. Task Requirements
+
+EMF-Detector (check body and near outlets)
+
+It should print the value on the 7-segment display (or light the led bar) and should make a sound based on the intensity.
+
+#### 3. Picture of the setup
+
+![hw3](https://user-images.githubusercontent.com/58784210/143326358-e9bf0232-dd7d-40a5-a668-22e786a9d23a.jpg)
+
+#### 4. Video
+
+https://www.youtube.com/watch?v=q-PP-DlzqVI
+
+#### [5. Code]
 
 
 ### [Homework 4](https://github.com/marianeacsu/IntroductionToRobotics/tree/main/hw4)
