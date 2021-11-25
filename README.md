@@ -61,7 +61,7 @@ https://www.youtube.com/watch?v=qpg_JbmJouc
 #### [5. Code](https://github.com/marianeacsu/IntroductionToRobotics/blob/main/Crosswalk%20simulator:%20traffi/hw2.ino)
 
 
-### [Homework 3]
+### [Homework 3](https://github.com/marianeacsu/IntroductionToRobotics/tree/main/EMF%20Detector)
 
 #### 1. Components
 
@@ -81,7 +81,7 @@ It should print the value on the 7-segment display (or light the led bar) and sh
 
 https://www.youtube.com/watch?v=q-PP-DlzqVI
 
-#### [5. Code]
+#### [5. Code](https://github.com/marianeacsu/IntroductionToRobotics/blob/main/EMF%20Detector/hw3.ino)
 
 
 ### [Homework 4](https://github.com/marianeacsu/IntroductionToRobotics/tree/main/hw4)
